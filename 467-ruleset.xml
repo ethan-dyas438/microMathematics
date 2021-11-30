@@ -9,10 +9,11 @@
         Custom PMD ruleset for 467 project
     </description>
 
-    <rule ref="category/java/bestpractices.xml" />
+    <!-- <rule ref="category/java/bestpractices.xml" /> -->
     <rule ref="category/java/errorprone.xml" />
-    <rule ref="category/java/design.xml" />
+    <!-- <rule ref="category/java/design.xml" /> -->
     <rule ref="category/java/codestyle.xml" />
 
     <!-- pmd.bat -d "C:\Users\Ethan's PC\Documents\GitHub\microMathematics\app\src\main\java\javax\measure\Measure.java" -f csv -R "C:\Users\Ethan's PC\Documents\GitHub\microMathematics\467-ruleset.xml" -->
+    <!-- pmd.bat -d "C:\Users\Ethan's PC\Documents\GitHub\Minimal-Todo\app\src\main\java\com\example\avjindersinghsekhon\minimaltodo\AddToDo\AddToDoFragment.java" -f csv -R "C:\Users\Ethan's PC\Documents\GitHub\microMathematics\467-ruleset.xml" -->
 </ruleset>
